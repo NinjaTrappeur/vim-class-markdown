@@ -15,7 +15,11 @@ Then, install python markdown and pygments:
 
 	pip install markdown pygments
 
+Finally, install vim-class-markdown in your bundle:
 
+	cd ~/.vim/bundle
+	git clone https://github.com/NinjaTrappeur/vim-class-markdown.git
+ 
 ###Features
 - Automatic html generation
 
