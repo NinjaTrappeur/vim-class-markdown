@@ -40,7 +40,7 @@ footer = "\n</body>\n</html>"
 
 md = markdown.Markdown()
 mdText = "\n".join(vim.current.buffer).decode('utf-8')
-html = header + markdown.markdown(mdText, extensions=['codehilite'],\
+html = header + markdown.markdown(mdText, extensions=['codehilite','toc'],\
                         output_format='html5') + footer
 try:
     fileName = check_file_extension(vim.current.buffer.name)
